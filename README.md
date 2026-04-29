@@ -35,6 +35,10 @@ ANTHROPIC_API_KEY   # anthropic.com
 NEWSAPI_KEY         # newsapi.org (free tier)
 ```
 
+## Architecture
+
+![Architecture](architecture.png)
+
 ## How it works
 
 Seven AI citizens with real randomuser.me identities process a policy through a memory-retrieve-reflect-plan loop every simulated month. Post-round, all agent pairs run the Deffuant bounded confidence model to update stances. Five economic indices (gov approval, unemployment, social unrest, price index, business survival) respond in real time to agent sentiment. Agents converse when they cross paths on the city map, updating each other's beliefs and memories.
